@@ -1,0 +1,45 @@
+body{
+    background-image: url("./img/Imagen\ pegada.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.inicio{
+    text-align: center;
+    padding-left: 50px;
+    
+}
+
+.navegacion{
+    text-align: center;
+    margin: 5rem 10rem 5 rem 10rem;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.menu a{
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+}
+
+.nav{
+    background-color: rgba(20, 29, 32, 0.637);
+    border-radius:20px; ;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px;
+}
+button:hover{
+    background-color: rgba(0, 255, 42, 0.445);
+    padding: 10px;
+    transition: none;
+}
+.texto{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0 10rem 0 10rem;
+}
